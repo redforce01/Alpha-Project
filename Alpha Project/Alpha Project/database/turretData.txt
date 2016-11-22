@@ -1,0 +1,1 @@
+|,Fletcher, image/ships/Fletcher/field_turret_Fletcher.bmp,  2160, 40, 36, 1, image/ships/Fletcher/field_cylinder_Fletcher.bmp, 480, 1440, 10, 36,

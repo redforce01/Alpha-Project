@@ -1,0 +1,2 @@
+//Name/Class/DP/Weight 		//ArmorPoint/Top/Bottom/Inch	//FCSName/Detection/Distance/Accuracy	//EngineName/Power/MinSpeed/MaxSpeed	//KeyFWidth/FHeight			//KeyHWidth/HHeight			//TurretSize
+|,Fletcher, DD, 6700, 2100, 	3, 3, 4, 4, 1.2, 1.3,		DD.Aiming, 345, 45, 			DD.Heavy, 66000, 37, 43,		image/ships/Fletcher/field/, 6480, 134,	image/ships/Fletcher/harbor/, 549, 258,	4,

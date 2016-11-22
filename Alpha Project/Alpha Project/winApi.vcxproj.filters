@@ -1,0 +1,623 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="2D Framework">
+      <UniqueIdentifier>{321d935e-5001-4633-9e8a-2a4f972760a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2D Framework\manager">
+      <UniqueIdentifier>{9dcb2374-bcff-497c-bfa4-c3af2dfae3ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gameStudy">
+      <UniqueIdentifier>{5175af2c-33b5-416f-9a8d-3629ef86e079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2D Framework\image">
+      <UniqueIdentifier>{eed549ce-5e2d-4151-a1de-2d00125f8e8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2D Framework\utils">
+      <UniqueIdentifier>{3328be04-0136-4080-a655-8dcf186e7857}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2D Framework\timer">
+      <UniqueIdentifier>{9692d7be-c46d-4d58-940d-d02e1963d7ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2D Framework\txtData">
+      <UniqueIdentifier>{ae96a1d9-2b3a-4d00-99cf-7339ad0a95d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2D Framework\progressBar">
+      <UniqueIdentifier>{359ebc3d-c1c5-49cc-b6ac-1c1e2198a7b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2D Framework\effect">
+      <UniqueIdentifier>{179d6a22-c41c-4167-a330-fa850e163d98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2D Framework\animation">
+      <UniqueIdentifier>{2b311d5d-1ac9-49fd-a166-94223b303a4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2D Framework\button">
+      <UniqueIdentifier>{ddb096a9-05ed-4b4e-bcd8-5010100f7698}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2D Framework\database">
+      <UniqueIdentifier>{3c0c4b94-c4f5-43a8-a41d-243799c65199}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2D Framework\action">
+      <UniqueIdentifier>{871f14ef-c28f-4271-bee8-5e817dc909a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2D Framework\collision">
+      <UniqueIdentifier>{221c41c5-9beb-4e03-b742-31a3803d91f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2D Framework\loading">
+      <UniqueIdentifier>{072ec289-27aa-4341-9f70-c1bf70dd09f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gameStudy\Title">
+      <UniqueIdentifier>{3176d527-c3db-45b7-9fd3-944e9581a2c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gameStudy\Title\titleUI">
+      <UniqueIdentifier>{a53b22bb-7ec0-4014-9bd5-df5842232232}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gameStudy\Lobby">
+      <UniqueIdentifier>{751ad7ae-a639-4f90-8d16-0e6295a1907b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gameStudy\Lobby\lobbyUI">
+      <UniqueIdentifier>{2e6dc323-e63e-497d-a8c1-5425205514a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gameStudy\ShipYard">
+      <UniqueIdentifier>{54d0566d-95ef-4964-981d-bc6475888400}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gameStudy\ShipYard\shipyardUI">
+      <UniqueIdentifier>{199a87ea-740c-473a-9fab-d10fb363f2b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gameStudy\ShipYard\shipyardUI\separateUI">
+      <UniqueIdentifier>{d7a2de3d-fc5a-4b78-b7b2-7df176c312a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gameStudy\Numbering">
+      <UniqueIdentifier>{f96cf7ad-2e19-46c7-b68c-842a8d2f012c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gameStudy\MyUtil">
+      <UniqueIdentifier>{c8299eb4-e8b5-4f46-b08b-0c53abeb811c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gameStudy\ShipYard\shipyardUI\separateUI\topExtendUI">
+      <UniqueIdentifier>{d85db9b1-cb0a-4ba9-a0b1-67ffcacd4e82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gameStudy\ShipYard\shipyardUI\separateUI\shipInfoUI">
+      <UniqueIdentifier>{d39b740c-37dd-4c21-9c94-04f5d3568542}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gameStudy\ShipYard\harborShip">
+      <UniqueIdentifier>{a3edeb98-d1d5-4661-8e35-b2c9ca598b3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gameStudy\ShipYard\shipyardUI\separateUI\arrowUI">
+      <UniqueIdentifier>{41f3bbbf-f135-46cf-9fdd-30175d3003d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gameStudy\ShipYard\shipyardUI\separateUI\shipCtrlUI">
+      <UniqueIdentifier>{7608e5c7-860f-42ef-97e4-ab265533e94c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gameStudy\progressBarA">
+      <UniqueIdentifier>{192f0c25-73f1-4a82-93e1-13be7f7b6d67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gameStudy\WorldMap">
+      <UniqueIdentifier>{42edc16b-29e7-4843-ad99-11b078abbf39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gameStudy\WorldMap\WorldMapUI">
+      <UniqueIdentifier>{40e5d3d5-2eda-48a6-9ce5-96e81608e342}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gameStudy\WorldMap\IsoMetricWorld">
+      <UniqueIdentifier>{d17276e2-d0d3-407b-a867-6cb3e9406ca4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gameStudy\Testing">
+      <UniqueIdentifier>{c47ffea1-350e-41cc-b477-df516b637ee9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gameStudy\WorldMap\CampaignMgr">
+      <UniqueIdentifier>{e4d7cff5-854a-4ebd-8b14-7e273dd6d9fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gameStudy\WorldMap\CampaignMgr\Event">
+      <UniqueIdentifier>{84fa71f9-d13a-4709-b46d-67ba52787708}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gameStudy\Battle">
+      <UniqueIdentifier>{f0335b69-073f-492e-9bd4-86c181b8fa4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gameStudy\Battle\BattleUI">
+      <UniqueIdentifier>{f80a5710-5a79-47bc-8fc7-457bfce535b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gameStudy\Battle\BattleManager">
+      <UniqueIdentifier>{35e3ff92-82fe-4451-8ee5-b547923e432f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gameStudy\Battle\BattleLoading">
+      <UniqueIdentifier>{4af78e56-85a6-425a-bcfd-07106408d35d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gameStudy\Battle\BattleMap">
+      <UniqueIdentifier>{2fc63b78-7bd8-420f-8029-3f5a39ff683e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gameStudy\Unit">
+      <UniqueIdentifier>{37978fc1-e3ca-4158-b6fc-f5c4be6665f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gameStudy\Battle\BattleUI\UnitList">
+      <UniqueIdentifier>{3415c163-2a4f-4ac9-91cb-40f5fdd91374}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gameStudy\Unit\ship">
+      <UniqueIdentifier>{3ab58ca3-cc26-4b86-a972-16288fec013c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gameStudy\Battle\BattleUI\seperateUI">
+      <UniqueIdentifier>{3a8951e3-1373-4946-82da-48cd28515332}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gameStudy\Unit\ship\turret">
+      <UniqueIdentifier>{75b6352f-acde-4cb9-9233-8afdbc38a5fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gameStudy\MouseCursor">
+      <UniqueIdentifier>{cbadb877-f312-469e-8e28-be5734f3518e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gameStudy\LogCat">
+      <UniqueIdentifier>{dcac5bbd-0ca2-4447-8e32-c0f4d5eb142c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gameStudy\Unit\ship\Destination">
+      <UniqueIdentifier>{2ab0d389-852b-4aa5-b18a-4a55b9964aae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gameStudy\Battle\BattleMap\battleArea">
+      <UniqueIdentifier>{965cd1a5-12c0-43dc-8e33-482d65ea3ad4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gameStudy\Battle\UnitAvailability">
+      <UniqueIdentifier>{73ef6f55-274e-4065-9291-9ba70394a407}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gameStudy\Battle\BattleMap\MapTile">
+      <UniqueIdentifier>{118c9a8b-6f37-447a-88db-693f89af66cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gameStudy\Unit\ship\SelectingUI">
+      <UniqueIdentifier>{7acde87f-4ee2-41e1-ba21-85b2c9962dcb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2D Framework\database\elements">
+      <UniqueIdentifier>{9a5afe7a-f4b3-49bb-acdf-329543abc41f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gameStudy\StartLoading">
+      <UniqueIdentifier>{0c0de3c9-0ecc-42f2-8b5d-b6b8633dda97}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="commonMacroFunction.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="singletonBase.h">
+      <Filter>2D Framework\manager</Filter>
+    </ClInclude>
+    <ClInclude Include="randomFunction.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="gameNode.h">
+      <Filter>2D Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="gameStudy.h">
+      <Filter>gameStudy</Filter>
+    </ClInclude>
+    <ClInclude Include="keyManager.h">
+      <Filter>2D Framework\manager</Filter>
+    </ClInclude>
+    <ClInclude Include="image.h">
+      <Filter>2D Framework\image</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.h">
+      <Filter>2D Framework\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="imageManager.h">
+      <Filter>2D Framework\manager</Filter>
+    </ClInclude>
+    <ClInclude Include="timer.h">
+      <Filter>2D Framework\timer</Filter>
+    </ClInclude>
+    <ClInclude Include="timeManager.h">
+      <Filter>2D Framework\manager</Filter>
+    </ClInclude>
+    <ClInclude Include="txtData.h">
+      <Filter>2D Framework\txtData</Filter>
+    </ClInclude>
+    <ClInclude Include="progressBar.h">
+      <Filter>2D Framework\progressBar</Filter>
+    </ClInclude>
+    <ClInclude Include="effect.h">
+      <Filter>2D Framework\effect</Filter>
+    </ClInclude>
+    <ClInclude Include="effectManager.h">
+      <Filter>2D Framework\manager</Filter>
+    </ClInclude>
+    <ClInclude Include="animation.h">
+      <Filter>2D Framework\animation</Filter>
+    </ClInclude>
+    <ClInclude Include="button.h">
+      <Filter>2D Framework\button</Filter>
+    </ClInclude>
+    <ClInclude Include="database.h">
+      <Filter>2D Framework\database</Filter>
+    </ClInclude>
+    <ClInclude Include="action.h">
+      <Filter>2D Framework\action</Filter>
+    </ClInclude>
+    <ClInclude Include="sceneManager.h">
+      <Filter>2D Framework\manager</Filter>
+    </ClInclude>
+    <ClInclude Include="actionManager.h">
+      <Filter>2D Framework\manager</Filter>
+    </ClInclude>
+    <ClInclude Include="soundManager.h">
+      <Filter>2D Framework\manager</Filter>
+    </ClInclude>
+    <ClInclude Include="keyAnimationManager.h">
+      <Filter>2D Framework\manager</Filter>
+    </ClInclude>
+    <ClInclude Include="collision.h">
+      <Filter>2D Framework\collision</Filter>
+    </ClInclude>
+    <ClInclude Include="loading.h">
+      <Filter>2D Framework\loading</Filter>
+    </ClInclude>
+    <ClInclude Include="titleScene.h">
+      <Filter>gameStudy\Title</Filter>
+    </ClInclude>
+    <ClInclude Include="titleUI.h">
+      <Filter>gameStudy\Title\titleUI</Filter>
+    </ClInclude>
+    <ClInclude Include="lobbyScene.h">
+      <Filter>gameStudy\Lobby</Filter>
+    </ClInclude>
+    <ClInclude Include="lobbyUI.h">
+      <Filter>gameStudy\Lobby\lobbyUI</Filter>
+    </ClInclude>
+    <ClInclude Include="shipyardScene.h">
+      <Filter>gameStudy\ShipYard</Filter>
+    </ClInclude>
+    <ClInclude Include="shipyardUI.h">
+      <Filter>gameStudy\ShipYard\shipyardUI</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="numbering.h">
+      <Filter>gameStudy\Numbering</Filter>
+    </ClInclude>
+    <ClInclude Include="myUtil.h">
+      <Filter>gameStudy\MyUtil</Filter>
+    </ClInclude>
+    <ClInclude Include="topExtendUI.h">
+      <Filter>gameStudy\ShipYard\shipyardUI\separateUI\topExtendUI</Filter>
+    </ClInclude>
+    <ClInclude Include="shipInfoUI.h">
+      <Filter>gameStudy\ShipYard\shipyardUI\separateUI\shipInfoUI</Filter>
+    </ClInclude>
+    <ClInclude Include="harborShip.h">
+      <Filter>gameStudy\ShipYard\harborShip</Filter>
+    </ClInclude>
+    <ClInclude Include="arrowUI.h">
+      <Filter>gameStudy\ShipYard\shipyardUI\separateUI\arrowUI</Filter>
+    </ClInclude>
+    <ClInclude Include="shipyardCtrlUI.h">
+      <Filter>gameStudy\ShipYard\shipyardUI\separateUI\shipCtrlUI</Filter>
+    </ClInclude>
+    <ClInclude Include="progressBarA.h">
+      <Filter>gameStudy\progressBarA</Filter>
+    </ClInclude>
+    <ClInclude Include="worldMapScene.h">
+      <Filter>gameStudy\WorldMap</Filter>
+    </ClInclude>
+    <ClInclude Include="IsoMetricWorld.h">
+      <Filter>gameStudy\WorldMap\IsoMetricWorld</Filter>
+    </ClInclude>
+    <ClInclude Include="IsoMetricArea.h">
+      <Filter>gameStudy\WorldMap\IsoMetricWorld</Filter>
+    </ClInclude>
+    <ClInclude Include="TestScene.h">
+      <Filter>gameStudy\Testing</Filter>
+    </ClInclude>
+    <ClInclude Include="worldMapUI.h">
+      <Filter>gameStudy\WorldMap\WorldMapUI</Filter>
+    </ClInclude>
+    <ClInclude Include="eventBattle.h">
+      <Filter>gameStudy\WorldMap\CampaignMgr\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="eventManager.h">
+      <Filter>gameStudy\WorldMap\CampaignMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="battleScene.h">
+      <Filter>gameStudy\Battle</Filter>
+    </ClInclude>
+    <ClInclude Include="battleUI.h">
+      <Filter>gameStudy\Battle\BattleUI</Filter>
+    </ClInclude>
+    <ClInclude Include="battleLoading.h">
+      <Filter>gameStudy\Battle\BattleLoading</Filter>
+    </ClInclude>
+    <ClInclude Include="battleMap.h">
+      <Filter>gameStudy\Battle\BattleMap</Filter>
+    </ClInclude>
+    <ClInclude Include="battleManager.h">
+      <Filter>gameStudy\Battle\BattleManager</Filter>
+    </ClInclude>
+    <ClInclude Include="unitList.h">
+      <Filter>gameStudy\Battle\BattleUI\UnitList</Filter>
+    </ClInclude>
+    <ClInclude Include="ship.h">
+      <Filter>gameStudy\Unit\ship</Filter>
+    </ClInclude>
+    <ClInclude Include="callShipUI.h">
+      <Filter>gameStudy\Battle\BattleUI\seperateUI</Filter>
+    </ClInclude>
+    <ClInclude Include="createUnit.h">
+      <Filter>gameStudy\Battle\BattleUI\seperateUI</Filter>
+    </ClInclude>
+    <ClInclude Include="mouseOverShip.h">
+      <Filter>gameStudy\Battle\BattleUI\seperateUI</Filter>
+    </ClInclude>
+    <ClInclude Include="turret.h">
+      <Filter>gameStudy\Unit\ship\turret</Filter>
+    </ClInclude>
+    <ClInclude Include="selectShipInfo.h">
+      <Filter>gameStudy\Battle\BattleUI\seperateUI</Filter>
+    </ClInclude>
+    <ClInclude Include="mouseCursor.h">
+      <Filter>gameStudy\MouseCursor</Filter>
+    </ClInclude>
+    <ClInclude Include="moveToUI.h">
+      <Filter>gameStudy\Battle\BattleUI\seperateUI</Filter>
+    </ClInclude>
+    <ClInclude Include="bullet.h">
+      <Filter>gameStudy\Unit\ship\turret</Filter>
+    </ClInclude>
+    <ClInclude Include="minimap.h">
+      <Filter>gameStudy\Battle\BattleUI\seperateUI</Filter>
+    </ClInclude>
+    <ClInclude Include="debugLogCat.h">
+      <Filter>gameStudy\LogCat</Filter>
+    </ClInclude>
+    <ClInclude Include="battleBottomExtend.h">
+      <Filter>gameStudy\Battle\BattleUI\seperateUI</Filter>
+    </ClInclude>
+    <ClInclude Include="destinationUI.h">
+      <Filter>gameStudy\Unit\ship\Destination</Filter>
+    </ClInclude>
+    <ClInclude Include="battleArea.h">
+      <Filter>gameStudy\Battle\BattleMap\battleArea</Filter>
+    </ClInclude>
+    <ClInclude Include="unitAvailability.h">
+      <Filter>gameStudy\Battle\UnitAvailability</Filter>
+    </ClInclude>
+    <ClInclude Include="mapTile.h">
+      <Filter>gameStudy\Battle\BattleMap\MapTile</Filter>
+    </ClInclude>
+    <ClInclude Include="selectingUI.h">
+      <Filter>gameStudy\Unit\ship\SelectingUI</Filter>
+    </ClInclude>
+    <ClInclude Include="soundData.h">
+      <Filter>2D Framework\database\elements</Filter>
+    </ClInclude>
+    <ClInclude Include="startLoading.h">
+      <Filter>gameStudy\StartLoading</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="winApi.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="gameNode.cpp">
+      <Filter>2D Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="gameStudy.cpp">
+      <Filter>gameStudy</Filter>
+    </ClCompile>
+    <ClCompile Include="keyManager.cpp">
+      <Filter>2D Framework\manager</Filter>
+    </ClCompile>
+    <ClCompile Include="image.cpp">
+      <Filter>2D Framework\image</Filter>
+    </ClCompile>
+    <ClCompile Include="utils.cpp">
+      <Filter>2D Framework\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="imageManager.cpp">
+      <Filter>2D Framework\manager</Filter>
+    </ClCompile>
+    <ClCompile Include="timer.cpp">
+      <Filter>2D Framework\timer</Filter>
+    </ClCompile>
+    <ClCompile Include="timeManager.cpp">
+      <Filter>2D Framework\manager</Filter>
+    </ClCompile>
+    <ClCompile Include="txtData.cpp">
+      <Filter>2D Framework\txtData</Filter>
+    </ClCompile>
+    <ClCompile Include="progressBar.cpp">
+      <Filter>2D Framework\progressBar</Filter>
+    </ClCompile>
+    <ClCompile Include="effect.cpp">
+      <Filter>2D Framework\effect</Filter>
+    </ClCompile>
+    <ClCompile Include="effectManager.cpp">
+      <Filter>2D Framework\manager</Filter>
+    </ClCompile>
+    <ClCompile Include="animation.cpp">
+      <Filter>2D Framework\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="button.cpp">
+      <Filter>2D Framework\button</Filter>
+    </ClCompile>
+    <ClCompile Include="database.cpp">
+      <Filter>2D Framework\database</Filter>
+    </ClCompile>
+    <ClCompile Include="action.cpp">
+      <Filter>2D Framework\action</Filter>
+    </ClCompile>
+    <ClCompile Include="actionManager.cpp">
+      <Filter>2D Framework\manager</Filter>
+    </ClCompile>
+    <ClCompile Include="sceneManager.cpp">
+      <Filter>2D Framework\manager</Filter>
+    </ClCompile>
+    <ClCompile Include="soundManager.cpp">
+      <Filter>2D Framework\manager</Filter>
+    </ClCompile>
+    <ClCompile Include="keyAnimationManager.cpp">
+      <Filter>2D Framework\manager</Filter>
+    </ClCompile>
+    <ClCompile Include="collision.cpp">
+      <Filter>2D Framework\collision</Filter>
+    </ClCompile>
+    <ClCompile Include="loading.cpp">
+      <Filter>2D Framework\loading</Filter>
+    </ClCompile>
+    <ClCompile Include="titleScene.cpp">
+      <Filter>gameStudy\Title</Filter>
+    </ClCompile>
+    <ClCompile Include="titleUI.cpp">
+      <Filter>gameStudy\Title\titleUI</Filter>
+    </ClCompile>
+    <ClCompile Include="lobbyScene.cpp">
+      <Filter>gameStudy\Lobby</Filter>
+    </ClCompile>
+    <ClCompile Include="lobbyUI.cpp">
+      <Filter>gameStudy\Lobby\lobbyUI</Filter>
+    </ClCompile>
+    <ClCompile Include="shipyardScene.cpp">
+      <Filter>gameStudy\ShipYard</Filter>
+    </ClCompile>
+    <ClCompile Include="shipyardUI.cpp">
+      <Filter>gameStudy\ShipYard\shipyardUI</Filter>
+    </ClCompile>
+    <ClCompile Include="numbering.cpp">
+      <Filter>gameStudy\Numbering</Filter>
+    </ClCompile>
+    <ClCompile Include="myUtil.cpp">
+      <Filter>gameStudy\MyUtil</Filter>
+    </ClCompile>
+    <ClCompile Include="topExtendUI.cpp">
+      <Filter>gameStudy\ShipYard\shipyardUI\separateUI\topExtendUI</Filter>
+    </ClCompile>
+    <ClCompile Include="shipInfoUI.cpp">
+      <Filter>gameStudy\ShipYard\shipyardUI\separateUI\shipInfoUI</Filter>
+    </ClCompile>
+    <ClCompile Include="harborShip.cpp">
+      <Filter>gameStudy\ShipYard\harborShip</Filter>
+    </ClCompile>
+    <ClCompile Include="arrowUI.cpp">
+      <Filter>gameStudy\ShipYard\shipyardUI\separateUI\arrowUI</Filter>
+    </ClCompile>
+    <ClCompile Include="shipyardCtrlUI.cpp">
+      <Filter>gameStudy\ShipYard\shipyardUI\separateUI\shipCtrlUI</Filter>
+    </ClCompile>
+    <ClCompile Include="progressBarA.cpp">
+      <Filter>gameStudy\progressBarA</Filter>
+    </ClCompile>
+    <ClCompile Include="worldMapScene.cpp">
+      <Filter>gameStudy\WorldMap</Filter>
+    </ClCompile>
+    <ClCompile Include="IsoMetricWorld.cpp">
+      <Filter>gameStudy\WorldMap\IsoMetricWorld</Filter>
+    </ClCompile>
+    <ClCompile Include="IsoMetricArea.cpp">
+      <Filter>gameStudy\WorldMap\IsoMetricWorld</Filter>
+    </ClCompile>
+    <ClCompile Include="TestScene.cpp">
+      <Filter>gameStudy\Testing</Filter>
+    </ClCompile>
+    <ClCompile Include="worldMapUI.cpp">
+      <Filter>gameStudy\WorldMap\WorldMapUI</Filter>
+    </ClCompile>
+    <ClCompile Include="eventBattle.cpp">
+      <Filter>gameStudy\WorldMap\CampaignMgr\Event</Filter>
+    </ClCompile>
+    <ClCompile Include="eventManager.cpp">
+      <Filter>gameStudy\WorldMap\CampaignMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="battleScene.cpp">
+      <Filter>gameStudy\Battle</Filter>
+    </ClCompile>
+    <ClCompile Include="battleUI.cpp">
+      <Filter>gameStudy\Battle\BattleUI</Filter>
+    </ClCompile>
+    <ClCompile Include="battleLoading.cpp">
+      <Filter>gameStudy\Battle\BattleLoading</Filter>
+    </ClCompile>
+    <ClCompile Include="battleMap.cpp">
+      <Filter>gameStudy\Battle\BattleMap</Filter>
+    </ClCompile>
+    <ClCompile Include="battleManager.cpp">
+      <Filter>gameStudy\Battle\BattleManager</Filter>
+    </ClCompile>
+    <ClCompile Include="unitList.cpp">
+      <Filter>gameStudy\Battle\BattleUI\UnitList</Filter>
+    </ClCompile>
+    <ClCompile Include="ship.cpp">
+      <Filter>gameStudy\Unit\ship</Filter>
+    </ClCompile>
+    <ClCompile Include="callShipUI.cpp">
+      <Filter>gameStudy\Battle\BattleUI\seperateUI</Filter>
+    </ClCompile>
+    <ClCompile Include="createUnit.cpp">
+      <Filter>gameStudy\Battle\BattleUI\seperateUI</Filter>
+    </ClCompile>
+    <ClCompile Include="mouseOverShip.cpp">
+      <Filter>gameStudy\Battle\BattleUI\seperateUI</Filter>
+    </ClCompile>
+    <ClCompile Include="turret.cpp">
+      <Filter>gameStudy\Unit\ship\turret</Filter>
+    </ClCompile>
+    <ClCompile Include="selectShipInfo.cpp">
+      <Filter>gameStudy\Battle\BattleUI\seperateUI</Filter>
+    </ClCompile>
+    <ClCompile Include="mouseCursor.cpp">
+      <Filter>gameStudy\MouseCursor</Filter>
+    </ClCompile>
+    <ClCompile Include="moveToUI.cpp">
+      <Filter>gameStudy\Battle\BattleUI\seperateUI</Filter>
+    </ClCompile>
+    <ClCompile Include="bullet.cpp">
+      <Filter>gameStudy\Unit\ship\turret</Filter>
+    </ClCompile>
+    <ClCompile Include="minimap.cpp">
+      <Filter>gameStudy\Battle\BattleUI\seperateUI</Filter>
+    </ClCompile>
+    <ClCompile Include="debugLogCat.cpp">
+      <Filter>gameStudy\LogCat</Filter>
+    </ClCompile>
+    <ClCompile Include="battleBottomExtend.cpp">
+      <Filter>gameStudy\Battle\BattleUI\seperateUI</Filter>
+    </ClCompile>
+    <ClCompile Include="destinationUI.cpp">
+      <Filter>gameStudy\Unit\ship\Destination</Filter>
+    </ClCompile>
+    <ClCompile Include="battleArea.cpp">
+      <Filter>gameStudy\Battle\BattleMap\battleArea</Filter>
+    </ClCompile>
+    <ClCompile Include="unitAvailability.cpp">
+      <Filter>gameStudy\Battle\UnitAvailability</Filter>
+    </ClCompile>
+    <ClCompile Include="mapTile.cpp">
+      <Filter>gameStudy\Battle\BattleMap\MapTile</Filter>
+    </ClCompile>
+    <ClCompile Include="selectingUI.cpp">
+      <Filter>gameStudy\Unit\ship\SelectingUI</Filter>
+    </ClCompile>
+    <ClCompile Include="startLoading.cpp">
+      <Filter>gameStudy\StartLoading</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="winApi.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

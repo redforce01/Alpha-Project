@@ -1,0 +1,241 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{F76053AC-3738-4F6D-A354-57EA85E1F98F}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>winApi</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <HeapReserveSize>900000</HeapReserveSize>
+      <HeapCommitSize>900000</HeapCommitSize>
+      <StackReserveSize>900000</StackReserveSize>
+      <StackCommitSize>900000</StackCommitSize>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="action.h" />
+    <ClInclude Include="actionManager.h" />
+    <ClInclude Include="animation.h" />
+    <ClInclude Include="arrowUI.h" />
+    <ClInclude Include="battleArea.h" />
+    <ClInclude Include="battleBottomExtend.h" />
+    <ClInclude Include="battleLoading.h" />
+    <ClInclude Include="battleManager.h" />
+    <ClInclude Include="battleMap.h" />
+    <ClInclude Include="battleScene.h" />
+    <ClInclude Include="battleUI.h" />
+    <ClInclude Include="bullet.h" />
+    <ClInclude Include="callShipUI.h" />
+    <ClInclude Include="createUnit.h" />
+    <ClInclude Include="debugLogCat.h" />
+    <ClInclude Include="mapTile.h" />
+    <ClInclude Include="soundData.h" />
+    <ClInclude Include="startLoading.h" />
+    <ClInclude Include="unitAvailability.h" />
+    <ClInclude Include="destinationUI.h" />
+    <ClInclude Include="minimap.h" />
+    <ClInclude Include="mouseCursor.h" />
+    <ClInclude Include="mouseOverShip.h" />
+    <ClInclude Include="eventBattle.h" />
+    <ClInclude Include="button.h" />
+    <ClInclude Include="collision.h" />
+    <ClInclude Include="commonMacroFunction.h" />
+    <ClInclude Include="database.h" />
+    <ClInclude Include="effect.h" />
+    <ClInclude Include="effectManager.h" />
+    <ClInclude Include="eventManager.h" />
+    <ClInclude Include="gameNode.h" />
+    <ClInclude Include="gameStudy.h" />
+    <ClInclude Include="harborShip.h" />
+    <ClInclude Include="image.h" />
+    <ClInclude Include="imageManager.h" />
+    <ClInclude Include="IsoMetricArea.h" />
+    <ClInclude Include="IsoMetricWorld.h" />
+    <ClInclude Include="keyAnimationManager.h" />
+    <ClInclude Include="keyManager.h" />
+    <ClInclude Include="loading.h" />
+    <ClInclude Include="lobbyScene.h" />
+    <ClInclude Include="lobbyUI.h" />
+    <ClInclude Include="moveToUI.h" />
+    <ClInclude Include="myUtil.h" />
+    <ClInclude Include="numbering.h" />
+    <ClInclude Include="progressBar.h" />
+    <ClInclude Include="progressBarA.h" />
+    <ClInclude Include="randomFunction.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="sceneManager.h" />
+    <ClInclude Include="selectingUI.h" />
+    <ClInclude Include="selectShipInfo.h" />
+    <ClInclude Include="ship.h" />
+    <ClInclude Include="shipInfoUI.h" />
+    <ClInclude Include="shipyardCtrlUI.h" />
+    <ClInclude Include="shipyardScene.h" />
+    <ClInclude Include="shipyardUI.h" />
+    <ClInclude Include="singletonBase.h" />
+    <ClInclude Include="soundManager.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="TestScene.h" />
+    <ClInclude Include="timeManager.h" />
+    <ClInclude Include="timer.h" />
+    <ClInclude Include="titleScene.h" />
+    <ClInclude Include="titleUI.h" />
+    <ClInclude Include="topExtendUI.h" />
+    <ClInclude Include="turret.h" />
+    <ClInclude Include="txtData.h" />
+    <ClInclude Include="unitList.h" />
+    <ClInclude Include="utils.h" />
+    <ClInclude Include="worldMapScene.h" />
+    <ClInclude Include="worldMapUI.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="action.cpp" />
+    <ClCompile Include="actionManager.cpp" />
+    <ClCompile Include="animation.cpp" />
+    <ClCompile Include="arrowUI.cpp" />
+    <ClCompile Include="battleArea.cpp" />
+    <ClCompile Include="battleBottomExtend.cpp" />
+    <ClCompile Include="battleLoading.cpp" />
+    <ClCompile Include="battleManager.cpp" />
+    <ClCompile Include="battleMap.cpp" />
+    <ClCompile Include="battleScene.cpp" />
+    <ClCompile Include="battleUI.cpp" />
+    <ClCompile Include="bullet.cpp" />
+    <ClCompile Include="callShipUI.cpp" />
+    <ClCompile Include="createUnit.cpp" />
+    <ClCompile Include="debugLogCat.cpp" />
+    <ClCompile Include="mapTile.cpp" />
+    <ClCompile Include="startLoading.cpp" />
+    <ClCompile Include="unitAvailability.cpp" />
+    <ClCompile Include="destinationUI.cpp" />
+    <ClCompile Include="minimap.cpp" />
+    <ClCompile Include="mouseCursor.cpp" />
+    <ClCompile Include="mouseOverShip.cpp" />
+    <ClCompile Include="eventBattle.cpp" />
+    <ClCompile Include="button.cpp" />
+    <ClCompile Include="collision.cpp" />
+    <ClCompile Include="database.cpp" />
+    <ClCompile Include="effect.cpp" />
+    <ClCompile Include="effectManager.cpp" />
+    <ClCompile Include="eventManager.cpp" />
+    <ClCompile Include="gameNode.cpp" />
+    <ClCompile Include="gameStudy.cpp" />
+    <ClCompile Include="harborShip.cpp" />
+    <ClCompile Include="image.cpp" />
+    <ClCompile Include="imageManager.cpp" />
+    <ClCompile Include="IsoMetricArea.cpp" />
+    <ClCompile Include="IsoMetricWorld.cpp" />
+    <ClCompile Include="keyAnimationManager.cpp" />
+    <ClCompile Include="keyManager.cpp" />
+    <ClCompile Include="loading.cpp" />
+    <ClCompile Include="lobbyScene.cpp" />
+    <ClCompile Include="lobbyUI.cpp" />
+    <ClCompile Include="moveToUI.cpp" />
+    <ClCompile Include="myUtil.cpp" />
+    <ClCompile Include="numbering.cpp" />
+    <ClCompile Include="progressBar.cpp" />
+    <ClCompile Include="progressBarA.cpp" />
+    <ClCompile Include="sceneManager.cpp" />
+    <ClCompile Include="selectingUI.cpp" />
+    <ClCompile Include="selectShipInfo.cpp" />
+    <ClCompile Include="ship.cpp" />
+    <ClCompile Include="shipInfoUI.cpp" />
+    <ClCompile Include="shipyardCtrlUI.cpp" />
+    <ClCompile Include="shipyardScene.cpp" />
+    <ClCompile Include="shipyardUI.cpp" />
+    <ClCompile Include="soundManager.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="TestScene.cpp" />
+    <ClCompile Include="timeManager.cpp" />
+    <ClCompile Include="timer.cpp" />
+    <ClCompile Include="titleScene.cpp" />
+    <ClCompile Include="titleUI.cpp" />
+    <ClCompile Include="topExtendUI.cpp" />
+    <ClCompile Include="turret.cpp" />
+    <ClCompile Include="txtData.cpp" />
+    <ClCompile Include="unitList.cpp" />
+    <ClCompile Include="utils.cpp" />
+    <ClCompile Include="winApi.cpp" />
+    <ClCompile Include="worldMapScene.cpp" />
+    <ClCompile Include="worldMapUI.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="winApi.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
