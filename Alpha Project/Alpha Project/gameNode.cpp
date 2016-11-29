@@ -38,6 +38,7 @@ HRESULT gameNode::init(bool managerInit)
 		DATABASE->init();
 		ACTIONMANAGER->init();
 		KEYANIMANAGER->init();
+		SOUNDMANAGER->init();
 		NUMBERINGMANAGER->init();
 		LOGCAT->init();
 	}
@@ -69,6 +70,8 @@ void gameNode::release()
 		ACTIONMANAGER->releaseSingleton();
 		KEYANIMANAGER->release();
 		KEYANIMANAGER->releaseSingleton();
+		SOUNDMANAGER->release();
+		SOUNDMANAGER->releaseSingleton();
 		NUMBERINGMANAGER->release();
 		NUMBERINGMANAGER->releaseSingleton();
 		LOGCAT->release();

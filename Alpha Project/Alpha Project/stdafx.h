@@ -34,8 +34,8 @@
 #include "sceneManager.h"
 #include "database.h"
 #include "actionManager.h"
-#include "keyAnimationManager.h"
 #include "soundManager.h"
+#include "keyAnimationManager.h"
 #include "collision.h"
 #include "numbering.h"
 
@@ -79,9 +79,9 @@ using namespace MY_CUSTOM_UTIL;
 #define EFFECTMANAGER effectManager::getSingleton()
 #define SCENEMANAGER sceneManager::getSingleton()
 #define DATABASE database::getSingleton()
+#define SOUNDMANAGER soundManager::getSingleton()
 #define ACTIONMANAGER actionManager::getSingleton()
 #define KEYANIMANAGER keyAnimationManager::getSingleton()
-#define SOUNDMANAGER soundManager::getSingleton()
 #define NUMBERINGMANAGER numbering::getSingleton()
 #define LOGCAT debugLogCat::getSingleton()
 

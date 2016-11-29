@@ -31,6 +31,7 @@ HRESULT lobbyUI::init()
 	_btnExit	 ->init("Exit", 1100, 590, functionExit, this);
 
 	_bChangeScene = false;
+	SOUNDMANAGER->play("bgm_lobby", 0.1f);
 
 	return S_OK;
 }
@@ -80,6 +81,7 @@ void lobbyUI::render()
 void lobbyUI::functionShipYard(void * obj)
 {
 	lobbyUI* _lobbyUI = (lobbyUI*)obj;
+	SOUNDMANAGER->stop("bgm_lobby");
 	SCENEMANAGER->changeScene("shipyardScene");
 	_lobbyUI->_bChangeScene = true;
 }
@@ -87,6 +89,7 @@ void lobbyUI::functionShipYard(void * obj)
 void lobbyUI::functionBattle(void * obj)
 {
 	lobbyUI* _lobbyUI = (lobbyUI*)obj;
+	SOUNDMANAGER->stop("bgm_lobby");
 	SCENEMANAGER->changeScene("worldMapScene");
 	_lobbyUI->_bChangeScene = true;
 }
@@ -94,6 +97,7 @@ void lobbyUI::functionBattle(void * obj)
 void lobbyUI::functionMaptool(void * obj)
 {
 	lobbyUI* _lobbyUI = (lobbyUI*)obj;
+	SOUNDMANAGER->stop("bgm_lobby");
 	SCENEMANAGER->changeScene("maptoolScene");
 	_lobbyUI->_bChangeScene = true;
 }

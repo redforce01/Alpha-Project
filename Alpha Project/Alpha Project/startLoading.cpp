@@ -40,6 +40,8 @@ HRESULT startLoading::init()
 	addLoadItemInterface();
 	addLoadItemSound();
 
+
+
 	return S_OK;
 }
 
@@ -97,7 +99,11 @@ void startLoading::update()
 	if (_nloadingImgNumber % 3 == 0) _background = IMAGEMANAGER->findImage("introBackground_1");
 	else if (_nloadingImgNumber % 2 == 0) _background = IMAGEMANAGER->findImage("introBackground_2");
 	else if (_nloadingImgNumber % 1 == 0) _background = IMAGEMANAGER->findImage("introBackground_3");
-	if (FALSE == loadNext()) SCENEMANAGER->changeScene("titleScene");
+
+	if (FALSE == loadNext() /*&& _nloadingImgNumber > 3*/)
+	{
+		SCENEMANAGER->changeScene("titleScene");
+	}
 	else loadNext();
 	
 }
@@ -232,4 +238,6 @@ void startLoading::addLoadItemInterface()
 
 void startLoading::addLoadItemSound()
 {
+	loadSound("bgm_maintheme", "sound/main_theme.mp3", true, true);
+	loadSound("bgm_lobby", "sound/wating_room.mp3", true, true);
 }

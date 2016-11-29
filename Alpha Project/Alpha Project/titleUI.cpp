@@ -18,6 +18,7 @@ HRESULT titleUI::init()
 	_btnCancel = new button;
 	_btnCancel->init("cancelButton", CENTERX + 50, WINSIZEY - 100, PointMake(2, 0), PointMake(0, 0), PointMake(1, 0), functionCancel, this);
 	
+	SOUNDMANAGER->play("bgm_maintheme", 0.1f);
 
 	return S_OK;
 }
@@ -54,10 +55,12 @@ void titleUI::render()
 
 void titleUI::functionJoin(void * obj)
 {
+	SOUNDMANAGER->stop("bgm_maintheme");
 	SCENEMANAGER->changeScene("lobbyScene");
 }
 
 void titleUI::functionCancel(void * obj)
 {
+	SOUNDMANAGER->stop("bgm_maintheme");
 	PostMessage(_hWnd, WM_DESTROY, 0, 0);
 }

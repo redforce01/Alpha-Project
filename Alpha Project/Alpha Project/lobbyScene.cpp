@@ -18,6 +18,8 @@ HRESULT LobbyScene::init()
 	_lobbyUI = new lobbyUI;
 	_lobbyUI->init();
 
+	
+
 	return S_OK;
 }
 

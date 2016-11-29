@@ -6,6 +6,9 @@ private:
 	map<string, string> _vLog;
 	map<string, string>::iterator _viLog;
 
+	map<string, string> _vLog2;
+	map<string, string>::iterator _viLog2;
+
 public:
 	debugLogCat();
 	~debugLogCat();
@@ -16,5 +19,6 @@ public:
 	void render(HDC hdc);
 
 	void addLog(string logName, const char* log);
+	void addLog2(string logName, const char* log);
 };
 
